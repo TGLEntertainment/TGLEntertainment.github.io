@@ -41,6 +41,7 @@ button {
     border-radius: 10px;
     border: 1px solid lightgray;
     color: white;
+    font-size: 1em;
 }
 
 button:hover {
