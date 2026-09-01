@@ -42,6 +42,7 @@ button {
     border: 1px solid lightgray;
     color: white;
     font-size: 1em;
+    display: flex;
 }
 
 button:hover {
@@ -62,6 +63,9 @@ button:hover {
     justify-content: center;
     align-items: center;
 }
+.v-centered {
+    align-self: center;
+}
 
 .icon {
     fill: white;
@@ -77,6 +81,12 @@ button:hover {
 
 .text-medium {
     font-size: 1em;
+}
+
+.grayish {
+    font-size: 0.85rem; 
+    opacity: 0.7; 
+    text-align: center;
 }
 
 .SCH-logo {
